@@ -12,6 +12,7 @@ public class Main extends Application {
 		launch(args);
 	}
 
+
 	@Override
 	public void start(Stage loginStage) throws Exception {
 		FXMLLoader loader = new FXMLLoader(getClass().getResource("../View/login.fxml"));
